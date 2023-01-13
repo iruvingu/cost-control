@@ -134,9 +134,7 @@ const Modal = ({
                 <input
                     className="bg-blue-700 p-4 text-center mt-8 text-white uppercase text-3xl w-full ease-in duration-300 hover:cursor-pointer hover:bg-blue-900 rounded-md md:block md:pt-4 md:px-20"
                     type="submit"
-                    value={
-                        gastoEditar.nombre ? "Guardar Cambios" : "Añadir Gasto"
-                    }
+                    value={gastoEditar.nombre ? "Save changes" : "Add Expense"}
                 />
             </form>
         </div>
